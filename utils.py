@@ -79,32 +79,35 @@ class Config:
         self.alpha = round(self.screen_width * self.screen_height * self.box_size / (1920 * 1080))
         
         self.monitor = {
-            "top": self.crosshair_y - self.alpha,
-            "left": self.crosshair_x - self.alpha,
-            "width": 2 * self.alpha,
-            "height": 2 * self.alpha
+            "top"    :  self.crosshair_y - self.alpha,
+            "left"   :  self.crosshair_x - self.alpha,
+            "width"  :  2 * self.alpha,
+            "height" :  2 * self.alpha
         }
         
         self.fov = {
-            'left': self.monitor['left'],
-            'top': self.monitor['top'],
-            'width': self.monitor['left'] + self.monitor['width'],
-            'height': self.monitor['top'] + self.monitor['height'],
+            'left'   :  self.monitor['left'],
+            'top'    :  self.monitor['top'],
+            'width'  :  self.monitor['left'] + self.monitor['width'],
+            'height' :  self.monitor['top'] + self.monitor['height'],
         }
     
     
 config = Config(
-    screen_width = screen_metric()['x'],            # monitor metrics
-    screen_height = screen_metric()['y'],           # monitor metrics
-    crosshair_x  = (screen_metric()['x'] // 2),     # monitor metrics // 2
-    crosshair_y  = (screen_metric()['y'] // 2),     # monitor metrics // 2
-    box_size = 135,                                 # ↑BOX_SIZE --> ↓SPEED ↑DETECTION_AREA
-    confidence = 0.5,                               # confidence (0.00, 1.00]
-    stopped = False,                                # turn on/off
-    stopped_key = win32con.VK_F1,                   # bind turn on/off event
+    screen_width   =   screen_metric()['x'],            # monitor metrics
+    screen_height  =   screen_metric()['y'],            # monitor metrics
+    crosshair_x    =   (screen_metric()['x'] // 2),     # monitor metrics // 2
+    crosshair_y    =   (screen_metric()['y'] // 2),     # monitor metrics // 2
+    box_size       =   135,                             # ↑BOX_SIZE --> ↓SPEED ↑DETECTION_AREA
+    confidence     =   0.5,                             # confidence (0.00, 1.00]
+    stopped        =   False,                           # turn on/off
+    stopped_key    =   win32con.VK_F1,                  # bind turn on/off event
 )
 
 cuda_config = CudaConfig()
+
+# === DON'T CHANGE === #
+MONITOR_CONFIG_BACKUP = config.monitor
 
 if __name__ == "__main__":
     os.system('cls')
