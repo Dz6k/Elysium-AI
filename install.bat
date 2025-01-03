@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --uac-admin --add-data "C:\Users\pedro\Desktop\Projeto_bo6\models;models/" --add-binary "C:\Users\pedro\Desktop\Projeto_bo6\glfw\glfw3.dll;." --add-binary "C:\Users\pedro\Desktop\Projeto_bo6\glfw\msvcr120.dll;."  "C:\Users\pedro\Desktop\Projeto_bo6\main.py"
