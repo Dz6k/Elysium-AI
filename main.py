@@ -8,7 +8,7 @@ from utils import config, cuda_config, Mouse, Files
 import numpy as np
 from time import sleep
 from threading import Thread
-import cv2
+from fov import Fov
 
 
 class App:
@@ -17,7 +17,7 @@ class App:
         self.device = None
         self.model = None
         self.is_onnx = False
-        self.__last_state = False
+        self.fov = Fov()
         self.frame = None
         self.sct = mss.mss()
         self.distance = []
@@ -186,17 +186,17 @@ class App:
                     self.stop_key()
                     
                     Draw.draw_rectangle(
-                        config.fov['left'],
-                        config.fov['top'], 
-                        config.fov['width'],
-                        config.fov['height'],
+                        config.monitor['left'],
+                        config.monitor['top'],
+                        config.monitor['left'] + config.monitor['width'],
+                        config.monitor['top'] + config.monitor['height'],
                         color=Colors.branco
                     )
                     
                     if not config.stopped:
                         self.aim_loop()
                         # cv2.imshow('imagem', self.frame)
-
+                        self.fov.update()
                     over.update()  
                 except KeyboardInterrupt:
                     sys.exit()
