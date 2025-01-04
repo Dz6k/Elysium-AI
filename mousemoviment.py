@@ -12,7 +12,7 @@ class Moviment(threading.Thread):
         super().__init__()
     
     @staticmethod         
-    def __moviment(self) -> None: 
+    def __moviment() -> None: 
         win32api.mouse_event(
             win32con.MOUSEEVENTF_MOVE, 
             int(config.moviment['x']),
@@ -20,7 +20,7 @@ class Moviment(threading.Thread):
         )
 
     @staticmethod 
-    def __smooth_move(self, smooth_factor) -> None:
+    def __smooth_move(smooth_factor) -> None:
         win32api.mouse_event(
             win32con.MOUSEEVENTF_MOVE,
             int( config.moviment['x'] / smooth_factor), 
@@ -50,7 +50,7 @@ class Moviment(threading.Thread):
                     # self.__moviment()
                     
                     # I really need this?
-                    mouse.click()
+                    # mouse.click()
                     
                     # I'm still analyzing the real need this yet....
                     config.moviment = {
