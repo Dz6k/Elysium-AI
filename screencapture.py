@@ -13,7 +13,7 @@ class Frame(threading.Thread):
         super().__init__()
        
     @staticmethod 
-    def __get_sc(self) -> np.ndarray:
+    def __get_sc() -> np.ndarray:
         with mss.mss() as sct:  
             screenshot = sct.grab(config.monitor)
             frame = np.array(screenshot)
