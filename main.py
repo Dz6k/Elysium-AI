@@ -7,6 +7,7 @@ from time import sleep
 from render import *
 from fov import Fov
 import numpy as np
+import win32api
 import torch
 import mss
 

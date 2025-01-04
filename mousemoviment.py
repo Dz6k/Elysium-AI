@@ -20,7 +20,7 @@ class Moviment(threading.Thread):
         )
 
     @staticmethod 
-    def __smooth_move(smooth_factor) -> None:
+    def __smooth_move(self, smooth_factor) -> None:
         win32api.mouse_event(
             win32con.MOUSEEVENTF_MOVE,
             int( config.moviment['x'] / smooth_factor), 
