@@ -1,6 +1,7 @@
+# ==== IMPORTS ==== #
 from utils import *
 from render import *
-import time
+
 
 class Fov:
     '''
@@ -29,7 +30,7 @@ class Fov:
                     for key, value in config.monitor.items()
                 }
                 if relative_confidence:
-                    config.confidence -= 0.05
+                    config.confidence -= 0.01
 
         elif not self.__is_rightmouse_down():             
             if config.monitor == MONITOR_CONFIG_BACKUP: pass
@@ -39,6 +40,6 @@ class Fov:
                     for key, value in config.monitor.items()
                 }
                 if relative_confidence:
-                    config.confidence += 0.05
+                    config.confidence += 0.01
                 
                 
