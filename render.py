@@ -132,7 +132,7 @@ class Render:
         overlay_hwnd = glfw.get_win32_window(window)
         hwnd = FindWindow(None, "Overlay") 
         self.make_window_transparent(hwnd)
-        # self.stream_mode_on(hwnd)
+        self.stream_mode_on(hwnd)
 
         # Configurações do OpenGL
         glLoadIdentity()
