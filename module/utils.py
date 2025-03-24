@@ -126,7 +126,6 @@ def update_config():
     config.fov_value = config_data["fov"]
     config.fov_value_backup = config_data["fov"]
     config.confidence = config_data["confidence"]
-    config.mouse_jitter = config_data["mouse_jitter"]
     config.smooth = config_data["smooth_enable"]
     config.smooth_value = config_data["smooth_value"]
     config.fov_min = config_data["fov-min"]

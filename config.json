@@ -1,6 +1,5 @@
 {
     "offset_y" : 0.29,
-    "mouse_jitter": 1,
     "sensibilidade": 0.7,
     "fov": 150,
     "fov-min": 150,
