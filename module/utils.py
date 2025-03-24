@@ -68,7 +68,7 @@ class Config:
     moviment: dict = field(default_factory=lambda: {"x": None, "y": None})
     monitor: dict = field(init=False) 
     offset_y: float = field(init=False) 
-    sensibilidade: float = field(init=False)
+    sensi: float = field(init=False)
     fov: dict = field(init=False) 
     fov_value: int = field(init=False)
     fov_value_backup: int = field(init=False) 
@@ -87,7 +87,7 @@ class Config:
             config_data = json.load(file) 
 
         self.offset_y = config_data["offset_y"]
-        self.sensibilidade = config_data["sensibilidade"]
+        self.sensi = config_data["sensi"]
         self.fov_value = config_data["fov"]
         self.fov_value_backup = config_data["fov"]
         self.confidence = config_data["confidence"]
@@ -122,7 +122,7 @@ def update_config():
     with open("config.json", "r") as file:
         config_data = json.load(file) 
     config.offset_y = config_data["offset_y"]
-    config.sensibilidade = config_data["sensibilidade"]
+    config.sensi = config_data["sensi"]
     config.fov_value = config_data["fov"]
     config.fov_value_backup = config_data["fov"]
     config.confidence = config_data["confidence"]

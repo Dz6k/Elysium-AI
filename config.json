@@ -1,6 +1,6 @@
 {
     "offset_y" : 0.29,
-    "sensibilidade": 0.7,
+    "sensi": 0.7,
     "fov": 150,
     "fov-min": 150,
     "confidence": 0.3,

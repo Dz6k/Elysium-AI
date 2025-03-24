@@ -108,8 +108,8 @@ class Moviment():
 
                             
                         config.moviment = {
-                            "x" : int(((best_lock["x"] - config.crosshair_x) / factor) * config.sensibilidade),
-                            "y" : int(((best_lock["y"] - config.crosshair_y) / factor) * config.sensibilidade)
+                            "x" : int(((best_lock["x"] - config.crosshair_x) / factor) * config.sensi),
+                            "y" : int(((best_lock["y"] - config.crosshair_y) / factor) * config.sensi)
                         }
                     
         
