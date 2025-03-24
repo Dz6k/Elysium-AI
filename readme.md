@@ -14,14 +14,25 @@ Este é um projeto open source de um aimbot por IA feito para dar tanto uma ajud
 - **LEFT and RIGHT click**: turn on aimbot(mouse moviment)
 
 
-## Installation
+## Instalação
 
-Install with pip 
+# Instale com pip (FAÇA ISSO SEGUINDO ESTA SEQUENCIA!)
 
 ```bash
+  pip install pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+  pip install ultralytics
   pip install -r requirements.txt
 ```
-    
+## Dependências externas necessárias
+
+- **CUDA**: [NVIDIA Cuda 12.4.0](https://developer.nvidia.com/cuda-12-4-0-download-archive)
+
+- **cuDNN**: [cuDNN 8.9.6](https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.6/local_installers/12.x/cudnn-windows-x86_64-8.9.6.50_cuda12-archive.zip/)
+
+### Opcional (para modelos .engine)
+
+- **TensorRT**: [TensorRT 10.3 GA](https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.3.0/zip/TensorRT-10.3.0.26.Windows.win10.cuda-12.5.zip)
+
     
 ## Config.json
 
@@ -59,12 +70,24 @@ This is an open-source AI-powered aimbot project designed both to help those who
 
 ## Installation
 
-Install with pip 
+# Install with pip (DO THIS BY FOLLOWING THIS SEQUENCE!)
 
 ```bash
+  pip install pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+  pip install ultralytics
   pip install -r requirements.txt
 ```
-    
+## Required External Dependencies
+
+- **CUDA**: [NVIDIA Cuda 12.4.0](https://developer.nvidia.com/cuda-12-4-0-download-archive)
+
+- **cuDNN**: [cuDNN 8.9.6](https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.6/local_installers/12.x/cudnn-windows-x86_64-8.9.6.50_cuda12-archive.zip/)
+
+### Optional (for .engine models)
+
+- **TensorRT**: [TensorRT 10.3 GA](https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.3.0/zip/TensorRT-10.3.0.26.Windows.win10.cuda-12.5.zip)
+
+
 ## Config.json
 
 
