@@ -16,9 +16,12 @@ Este é um projeto open source de um aimbot por IA feito para dar tanto uma ajud
 
 ## Instalação
 
-# Instale com pip (FAÇA ISSO SEGUINDO ESTA SEQUENCIA!)
-
+# Instale com pip (FAÇA ISSO SEGUINDO ESTA SEQUÊNCIA!)
+#### **OPENGL OBS**: Use a mesma versão do python na lib OpenGL (Eu uso python 3.11.7)
+- [OpenGL Dependences](https://github.com/cgohlke/pyopengl-build)
 ```bash
+  pip install private\OpenGL\PyOpenGL_accelerate-3.1.9-cp311-cp311-win_amd64.whl 
+  pip install private\OpenGL\PyOpenGL-3.1.9-cp311-cp311-win_amd64.whl
   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
   pip install ultralytics
   pip install -r requirements.txt
@@ -70,9 +73,12 @@ This is an open-source AI-powered aimbot project designed both to help those who
 
 ## Installation
 
-# Install with pip (DO THIS BY FOLLOWING THIS SEQUENCE!)
-
+### Install with pip (DO THIS BY FOLLOWING THIS SEQUENCE!)
+#### **OPENGL OBS**: Use the same version of python in opengl (i'm using python 3.11.7)
+- [OpenGL Dependences](https://github.com/cgohlke/pyopengl-build)
 ```bash
+  pip install private\OpenGL\PyOpenGL_accelerate-3.1.9-cp311-cp311-win_amd64.whl 
+  pip install private\OpenGL\PyOpenGL-3.1.9-cp311-cp311-win_amd64.whl
   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
   pip install ultralytics
   pip install -r requirements.txt
