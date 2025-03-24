@@ -1,11 +1,11 @@
 {
-    "offset_y" : 0.29,
+    "offset_y" : 0.33,
     "sensi": 0.7,
     "fov": 150,
     "fov-min": 150,
-    "confidence": 0.3,
+    "confidence": 0.5,
     "smooth_enable": false,
     "smooth_value": 1.0,
-    "t_factor": 0.001
+    "t_factor": 0.0001
 }
 

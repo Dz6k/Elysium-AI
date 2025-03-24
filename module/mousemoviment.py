@@ -1,11 +1,11 @@
 # ==== IMPORTS ==== #
-from utils import Mouse, config, lock, is_runing
+from module.utils import Mouse, config, lock, is_runing
 from time import sleep
 from typing import Tuple
 import ctypes
 from datetime import datetime
 import random
-from wise import WiseManager, Wise
+from module.wise import WiseManager, Wise
 
 k32 = ctypes.windll.kernel32
 k32.GetModuleHandleW.argtypes = [ctypes.c_wchar_p]

@@ -1,5 +1,5 @@
 # ==== IMPORTS ==== #
-from utils import config, lock, is_runing
+from module.utils import config, lock, is_runing
 from time import sleep
 import math
 import ctypes

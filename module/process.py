@@ -1,4 +1,4 @@
-from utils import config
+from module.utils import config
 import supervision as sv
     
 byte_tracker = sv.ByteTrack()

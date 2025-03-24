@@ -40,7 +40,7 @@ class App:
         
 
     def load_model_path(self) -> str:
-        self.device = Files.resource_path(
+        self.device = Files.resource_path_root(
             relative_path=f"models\\{self.model_path}")
         return self.device
 
@@ -214,6 +214,6 @@ class App:
         self.run()
         
 if __name__ == "__main__":
-    app = App("w3.onnx")
+    app = App("Universal2.onnx")
     app.start_and_run()
  

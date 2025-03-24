@@ -1,5 +1,5 @@
 # ==== IMPORTS ==== #
-from utils import Mouse, config
+from module.utils import Mouse, config
 import threading
 import time
 import mss

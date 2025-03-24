@@ -21,7 +21,7 @@ sensibilidade = 1
 
 start = (0, 0)
 end = (detected_x - crosshair_x, detected_y - crosshair_y)
-offset = random.randint(100, 1000) #
+offset = random.randint(100,700) 
 control1 = (start[0] + (end[0] - start[0]) // 3, start[1] + (end[1] - start[1]) // 3 + offset)
 control2 = (start[0] + 2 * (end[0] - start[0]) // 3, start[1] + 2 * (end[1] - start[1]) // 3 - offset)
 
