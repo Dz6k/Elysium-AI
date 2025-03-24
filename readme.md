@@ -19,7 +19,7 @@ Este é um projeto open source de um aimbot por IA feito para dar tanto uma ajud
 # Instale com pip (FAÇA ISSO SEGUINDO ESTA SEQUENCIA!)
 
 ```bash
-  pip install pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
   pip install ultralytics
   pip install -r requirements.txt
 ```
@@ -73,7 +73,7 @@ This is an open-source AI-powered aimbot project designed both to help those who
 # Install with pip (DO THIS BY FOLLOWING THIS SEQUENCE!)
 
 ```bash
-  pip install pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
   pip install ultralytics
   pip install -r requirements.txt
 ```
