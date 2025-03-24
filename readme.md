@@ -39,7 +39,7 @@ Este é um projeto open source de um aimbot por IA feito para dar tanto uma ajud
 
 - **offset_y**: apontar a mira mais acima ou mais abaixo do centro do box (positivo para cima, negativo para baixo)
 
-- **sensi**: sensibilidade do movimento da mira (só funciona na função de backup na pasta _BACKUP_M_EVENT.py)
+- **sensi**: sensibilidade do movimento da mira (só funciona na função de backup no modulo _BACKUP_M_EVENT.py)
 
 - **fov**: Área de detecção 
 
@@ -93,7 +93,7 @@ This is an open-source AI-powered aimbot project designed both to help those who
 
 - **offset_y**: Adjusts the aim higher or lower relative to the center of the box (positive for up, negative for down).
 
-- **sensi**: Sensitivity of aim movement (only works in the backup function inside the `_BACKUP_M_EVENT.py` folder).
+- **sensi**: Sensitivity of aim movement (only works in the backup function inside the `_BACKUP_M_EVENT.py` module).
 
 - **fov**: Detection area.
 
