@@ -16,7 +16,7 @@ Este é um projeto open source de um aimbot por IA feito para dar tanto uma ajud
 
 ## Instalação
 
-# Instale com pip (FAÇA ISSO SEGUINDO ESTA SEQUÊNCIA!)
+### Instale com pip (FAÇA ISSO SEGUINDO ESTA SEQUÊNCIA!)
 #### **OPENGL OBS**: Use a mesma versão do python na lib OpenGL (Eu uso python 3.11.7)
 - [OpenGL Dependences](https://github.com/cgohlke/pyopengl-build)
 ```bash
