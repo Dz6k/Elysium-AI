@@ -1,7 +1,12 @@
 {
-    "offset_y" : 0.25,
-    "sensibilidade": 1.15,
-    "box-fov": 125,
-    "confidence": 0.35
+    "offset_y" : 0.29,
+    "mouse_jitter": 1,
+    "sensibilidade": 0.7,
+    "fov": 150,
+    "fov-min": 150,
+    "confidence": 0.3,
+    "smooth_enable": false,
+    "smooth_value": 1.0,
+    "t_factor": 0.001
 }
 
