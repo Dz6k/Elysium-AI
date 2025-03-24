@@ -1,5 +1,5 @@
 **🇧🇷 PT/BR**
-# Projeto IA Elysium Imbot
+# Projeto IA Elysium Aimbot
 
 
 Este é um projeto open source de um aimbot por IA feito para dar tanto uma ajuda para os que estão querendo aprender a como fazer como para quem quer algo que é so baixar, instalar as dependências e jogar.
@@ -45,7 +45,7 @@ Install with pip
 ---------------------------
 
 **EN/US**
-# Project AI Elysium Imbot
+# Project AI Elysium Aimbot
 
 This is an open-source AI-powered aimbot project designed both to help those who want to learn how to create one and for those who just want something ready to download, install the dependencies, and play
 
